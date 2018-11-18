@@ -5,9 +5,9 @@
   <subtitle>Make progress everyday.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://zhouhengheng.com/"/>
   <updated>2018-11-17T08:48:52.098Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://zhouhengheng.com/</id>
   
   <author>
     <name>Zhou Hengheng</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>My New Post</title>
-    <link href="http://yoursite.com/2018/11/17/My-New-Post/"/>
-    <id>http://yoursite.com/2018/11/17/My-New-Post/</id>
+    <link href="http://zhouhengheng.com/2018/11/17/My-New-Post/"/>
+    <id>http://zhouhengheng.com/2018/11/17/My-New-Post/</id>
     <published>2018-11-17T08:48:52.000Z</published>
     <updated>2018-11-17T08:48:52.098Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/11/17/hello-world/"/>
-    <id>http://yoursite.com/2018/11/17/hello-world/</id>
+    <link href="http://zhouhengheng.com/2018/11/17/hello-world/"/>
+    <id>http://zhouhengheng.com/2018/11/17/hello-world/</id>
     <published>2018-11-17T02:20:13.528Z</published>
     <updated>2018-11-17T02:20:13.528Z</updated>
     
