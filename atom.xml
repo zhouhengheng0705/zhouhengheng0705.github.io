@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhouhengheng.com/"/>
-  <updated>2018-11-20T13:26:27.661Z</updated>
+  <updated>2018-11-21T13:09:06.095Z</updated>
   <id>http://zhouhengheng.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown的写法</title>
+    <link href="http://zhouhengheng.com/2018/11/21/Markdown%E7%9A%84%E5%86%99%E6%B3%95/"/>
+    <id>http://zhouhengheng.com/2018/11/21/Markdown的写法/</id>
+    <published>2018-11-21T13:08:11.000Z</published>
+    <updated>2018-11-21T13:09:06.095Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><span class="line">Markdown格式的常用写法</span><br><span class="line"></span><br><span class="line">1. 列表</span><br><span class="line"></span><br><span class="line">例:</span><br><span class="line"> - The Beatles</span><br><span class="line">  - Atom</span><br><span class="line">    -git</span><br><span class="line"></span><br><span class="line">※注意:「-」和文字之间有半角空格。</span><br><span class="line"></span><br><span class="line">2. 标题</span><br><span class="line"></span><br><span class="line">例:</span><br><span class="line"># 标题1</span><br><span class="line">## 标题2</span><br><span class="line">### 标题3</span><br><span class="line"></span><br><span class="line">※注意:「#」和文字之间有半角空格。</span><br><span class="line"></span><br><span class="line">3.强调</span><br><span class="line"></span><br><span class="line">例:</span><br><span class="line">**Hello World**</span><br><span class="line"></span><br><span class="line">4.引用</span><br><span class="line"></span><br><span class="line">例:</span><br><span class="line">&gt; Beautiful is better than ugly.</span><br><span class="line"></span><br><span class="line">※注意:「&gt;」和文字之间有半角空格。</span><br><span class="line"></span><br><span class="line">5.链接</span><br><span class="line"></span><br><span class="line">例:</span><br><span class="line">[我的博客](http://www.zhouhengheng.com)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">6.取消线</span><br><span class="line"></span><br><span class="line">例:</span><br><span class="line">~~取消~~</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">7.水平线（从「&gt;」，「_」，「*」中任意并列三个以上）</span><br><span class="line"></span><br><span class="line">例:</span><br><span class="line">---</span><br><span class="line">___</span><br><span class="line"></span><br><span class="line">***</span><br><span class="line"></span><br><span class="line">8.插入图片（格式 ![代替文字](图片URL “标题”)」）</span><br><span class="line"></span><br><span class="line">例:</span><br><span class="line"></span><br><span class="line">![名片工厂图片](https://meishi.artisj.com/summary/image/logo.gif &quot;名片工厂&quot;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">9.段落和改行</span><br><span class="line"></span><br><span class="line">段落空一整行。</span><br><span class="line">改行空两个半角空格以上。</span><br><span class="line"></span><br><span class="line">例:</span><br><span class="line"></span><br><span class="line">你学会使用Markdown格式了吗？</span><br><span class="line"></span><br><span class="line">只会一点，</span><br><span class="line">还在学习中。</span><br></pre></td></tr></table></figure><p>10.代码引用</p><p>①指定开发语言时</p><p>例:</p><p>```python</p><p>def hello_world():<br>    print(‘Hello world!’)</p><p>hello_world()</p><p>```</p><p>②未指定开发语言时</p><p>例:</p><p>```</p><p>print(‘Hello world!)</p><p>```</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>呕心呖血搭建Hexo博客</title>
