@@ -403,26 +403,6 @@
 
           
 
-<% if(theme.gitment.enable)="" {="" %="">
-<div id="gitment_title" class="gitment_title"></div>
-<div id="container" style="display:none"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script>
-  const myTheme = {
-    render(state, instance) {
-      const container = document.createElement('div');
-      container.lang = "en-US";
-      container.className = 'gitment-container gitment-root-container';
-      container.appendChild(instance.renderHeader(state, instance));
-      container.appendChild(instance.renderEditor(state, instance));
-      container.appendChild(instance.renderComments(state, instance));
-      container.appendChild(instance.renderFooter(state, instance));
-      return container;
-    }
-  }
-
         </div>
         
           
@@ -445,11 +425,9 @@
 
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image"
-                src="/images/self.jpg"
-                alt="Zhou Hengheng" />
+              <img class="site-author-image" itemprop="image" src="/images/self.jpg" alt="Zhou Hengheng">
             
               <p class="site-author-name" itemprop="name">Zhou Hengheng</p>
               <p class="site-description motion-element" itemprop="description">As long as we breathe, we must fight.</p>
@@ -584,7 +562,7 @@
 
 
 <div class="busuanzi-count">
-    <script async="" src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span class="site-uv">
       <i class="fa fa-user"></i>
       访问用户： <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 人
@@ -599,7 +577,7 @@
       <i class="fa fa-pencil"></i>
       博客全站共： <span class="post-count">596</span> 字
     </span>
-</%></div>
+</div>
 
         
 
@@ -611,7 +589,7 @@
 
         
       </div>
-    
+    </footer>
 
     
       <div class="back-to-top">
@@ -622,7 +600,7 @@
 
     
 
-  </main></div>
+  </div>
 
   
 
