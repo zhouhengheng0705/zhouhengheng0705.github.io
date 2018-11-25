@@ -361,7 +361,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/2018/11/21/Markdown的写法/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/11/21/Markdown的写法/" itemprop="commentCount"></span>
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/11/21/Markdown的写法/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -533,7 +533,11 @@
 
   
     <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
     </div>
+
   
 
 
@@ -857,30 +861,45 @@
 
 
 
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'zhouhengheng0705',
+            repo: 'zhouhengheng0705.github.io',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '0b71d89814efcf58330781e39a903abc2a8c0ce5',
+            
+                client_id: 'c5a763fb0b0a3a3f7c94'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-  
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item=>{
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        verify: false,
-        notify: false,
-        appId: 'LPaMdb6GKeQhOSdyFkT5yAIR-gzGzoHsz',
-        appKey: 'hLiNh5aj4cuvIrdHXDpJdutt',
-        placeholder: '(*＾-＾*）给提点建议呗，老铁？',
-        avatar:'wavatar',
-        guest_info:guest,
-        pageSize:'10' || 10,
-    });
-  </script>
+
 
 
 
