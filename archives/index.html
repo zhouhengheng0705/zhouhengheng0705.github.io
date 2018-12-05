@@ -580,6 +580,20 @@
 
 
 
+window.onload = function() {
+var show = document.getElementById("show");
+setInterval(function() {
+var time = new Date();
+// 程序计时的月从0开始取值后+1
+var m = time.getMonth() + 1;
+//根据自己博客的创建时间更改数值
+var t = "提示内容"+(time.getFullYear()-2017) + "年" + (m-3) + "月"
++ time.getDate() + "天 " + time.getHours() + "时"
++ time.getMinutes() + "分" + time.getSeconds() + "秒";
+show.innerHTML = t;
+}, 1000);
+};
+
 
 <div class="busuanzi-count">
     <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -596,6 +610,12 @@
     <span class="site-pv">
       <i class="fa fa-pencil"></i>
       博客全站共： <span class="post-count">596</span> 字
+    </span>
+
+    <!-- 博客运行时间 -->  
+    <span class="site-uv">
+      <i class="fa fa-eye"></i>
+      show
     </span>
 </div>
 
