@@ -1090,7 +1090,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: transparent;
+  background: url("../image/headerbg.jpg");
 }
 .header-inner {
   position: relative;
@@ -1185,9 +1185,9 @@ pre .javascript .function {
   }
 }
 .menu {
-  margin-top: 20px;
+  margin-top: 5px;
   padding-left: 0;
-  text-align: center;
+  text-align: left;
 }
 .menu .menu-item {
   display: inline-block;
@@ -2004,7 +2004,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff938f;
+  background: #86adff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2544,6 +2544,9 @@ a:hover {
   content: "|";
   padding-left: 10px;
 }
+.pages {
+  background: url("../image/headerbg.jpg");
+}
 .page-archive .archive-page-counter {
   position: relative;
   top: 3px;
@@ -2848,6 +2851,14 @@ embed {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.header {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://s1.ax1x.com/2018/05/28/C4pcaF.jpg") no-repeat;
+  background-size: cover;
+  background-color: #000;
+  background-position: center;
+  width: 100%;
+  display: table;
 }
 body {
   background: url("https://source.unsplash.com/random/1600x900");
