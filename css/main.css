@@ -1187,7 +1187,7 @@ pre .javascript .function {
 .menu {
   margin-top: 15px;
   padding-left: 0;
-  text-align: center;
+  text-align: left;
 }
 .menu .menu-item {
   display: inline-block;
@@ -2011,7 +2011,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fc3b4f;
+  background: #ff2eff;
 }
 .links-of-blogroll {
   font-size: 13px;
