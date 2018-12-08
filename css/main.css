@@ -1187,7 +1187,7 @@ pre .javascript .function {
 .menu {
   margin-top: 15px;
   padding-left: 0;
-  text-align: left;
+  text-align: center;
 }
 .menu .menu-item {
   display: inline-block;
@@ -2011,7 +2011,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff2eff;
+  background: #c157a7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2858,6 +2858,9 @@ embed {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.body {
+  background-position: 50% 50%;
 }
 body {
   background: url("https://source.unsplash.com/random/1600x900");
