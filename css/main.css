@@ -1063,7 +1063,7 @@ pre .javascript .function {
   right: 30px;
   z-index: 1050;
   padding: 0 6px;
-  width: 24px;
+  width: initial;
   background: #222;
   font-size: 12px;
   opacity: 1;
@@ -1185,9 +1185,9 @@ pre .javascript .function {
   }
 }
 .menu {
-  margin-top: 5px;
+  margin-top: 15px;
   padding-left: 0;
-  text-align: left;
+  text-align: center;
 }
 .menu .menu-item {
   display: inline-block;
@@ -1771,6 +1771,13 @@ pre .javascript .function {
     transform: rotateZ(-30deg);
   }
 }
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -2004,7 +2011,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #86adff;
+  background: #1828d9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2851,14 +2858,6 @@ embed {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
-}
-.header {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://s1.ax1x.com/2018/05/28/C4pcaF.jpg") no-repeat;
-  background-size: cover;
-  background-color: #000;
-  background-position: center;
-  width: 100%;
-  display: table;
 }
 body {
   background: url("https://source.unsplash.com/random/1600x900");
