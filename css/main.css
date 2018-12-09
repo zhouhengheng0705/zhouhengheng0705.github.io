@@ -2014,7 +2014,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f9446;
+  background: #d673ab;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2137,7 +2137,7 @@ a:hover {
 .footer {
   font-size: 14px;
   color: $white;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/footerbg.jpg") no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/grey.jpg") no-repeat;
   background-size: cover;
   background-color: #000;
   background-position: center;
