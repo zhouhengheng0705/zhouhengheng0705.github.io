@@ -2014,7 +2014,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0eff5d;
+  background: #9f9446;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2869,23 +2869,10 @@ embed {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .header {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/life.jpg") no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/timg.jpg") no-repeat;
   background-size: cover;
   background-color: #000;
   background-position: center;
   width: 100%;
   display: table;
-}
-body {
-  background: url("https://source.unsplash.com/random/1600x900");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-}
-.main-inner {
-  margin-top: 60px;
-  padding: 60px 60px 60px 60px;
-  background: #fff;
-  opacity: 1;
-  min-height: 500px;
 }
