@@ -1187,12 +1187,13 @@ pre .javascript .function {
 .menu {
   margin-top: 15px;
   padding-left: 0;
-  text-align: left;
+  text-align: center;
 }
 .menu .menu-item {
   display: inline-block;
   margin: 0 10px;
   list-style: none;
+  font-size: 20px;
 }
 @media screen and (max-width: 767px) {
   .menu .menu-item {
@@ -2011,7 +2012,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffe205;
+  background: #d6ff11;
 }
 .links-of-blogroll {
   font-size: 13px;
