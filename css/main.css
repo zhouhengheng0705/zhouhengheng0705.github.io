@@ -1205,7 +1205,8 @@ pre .javascript .function {
 }
 .menu .menu-item a {
   display: block;
-  font-size: 10px;
+  font-size: 18px;
+  color: #fff;
   line-height: inherit;
   border-bottom: 1px solid transparent;
   transition-property: border-color;
@@ -2015,7 +2016,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2099ff;
+  background: #f0046e;
 }
 .links-of-blogroll {
   font-size: 13px;
