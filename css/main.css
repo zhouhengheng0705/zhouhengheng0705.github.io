@@ -2016,7 +2016,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d5ac37;
+  background: #bdffd7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2875,6 +2875,7 @@ embed {
   background-size: cover;
   background-color: #000;
   background-position: center;
-  width: 100%;
+  width: 80%;
+  height: 40%;
   display: table;
 }
