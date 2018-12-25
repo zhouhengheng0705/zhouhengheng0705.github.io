@@ -444,7 +444,7 @@ body {
 }
 .header-inner {
   margin: 0 auto;
-  padding: 100px 0 100px;
+  padding: 100px 0 130px;
   width: 700px;
 }
 @media (min-width: 1600px) {
@@ -1206,7 +1206,7 @@ pre .javascript .function {
 }
 .menu .menu-item a {
   display: block;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
   line-height: inherit;
   border-bottom: 1px solid transparent;
@@ -2017,7 +2017,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c7edff;
+  background: #f103cc;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2872,7 +2872,7 @@ embed {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .header {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/timg.jpg") no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/images/travel.jpg?raw=true") no-repeat;
   background-size: cover;
   background-color: #000;
   background-position: center;
