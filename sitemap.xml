@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhouhengheng.com/tags/index.html</loc>
+    
+    <lastmod>2018-12-25T13:31:33.800Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhouhengheng.com/categories/index.html</loc>
+    
+    <lastmod>2018-12-25T13:30:03.263Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhouhengheng.com/2018/11/21/Markdown%E7%9A%84%E5%86%99%E6%B3%95/</loc>
     
     <lastmod>2018-12-25T13:20:27.718Z</lastmod>
@@ -19,20 +33,6 @@
     <loc>http://zhouhengheng.com/2018/11/18/Hexo%E5%8D%9A%E5%AE%A2%E5%91%95%E5%BF%83%E5%91%96%E8%A1%80%E6%90%AD%E5%BB%BA/</loc>
     
     <lastmod>2018-12-24T00:30:34.440Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhouhengheng.com/tags/index.html</loc>
-    
-    <lastmod>2018-11-24T14:19:02.988Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhouhengheng.com/categories/index.html</loc>
-    
-    <lastmod>2018-11-24T14:13:01.263Z</lastmod>
     
   </url>
   
