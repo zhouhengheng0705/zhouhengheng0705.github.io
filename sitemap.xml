@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhouhengheng.com/about/index.html</loc>
+    
+    <lastmod>2018-12-25T13:37:39.942Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhouhengheng.com/tags/index.html</loc>
     
     <lastmod>2018-12-25T13:31:33.800Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://zhouhengheng.com/2018/11/21/Markdown%E7%9A%84%E5%86%99%E6%B3%95/</loc>
     
     <lastmod>2018-12-25T13:20:27.718Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhouhengheng.com/about/index.html</loc>
-    
-    <lastmod>2018-12-24T02:35:25.768Z</lastmod>
     
   </url>
   
