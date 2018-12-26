@@ -1090,8 +1090,13 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: url("../image/headerbg.jpg");
-  height: 600px;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/images/travel.jpg?raw=true") no-repeat;
+  background-size: cover;
+  background-color: #808080;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: table;
 }
 .header-inner {
   position: relative;
@@ -2017,7 +2022,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #633363;
+  background: #3eff30;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2870,13 +2875,4 @@ embed {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
-}
-.header {
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/images/travel.jpg?raw=true") no-repeat;
-  background-size: cover;
-  background-color: #808080;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  display: table;
 }
