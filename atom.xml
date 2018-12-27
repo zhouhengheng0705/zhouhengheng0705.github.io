@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhouhengheng.com/"/>
-  <updated>2018-12-27T14:18:50.634Z</updated>
+  <updated>2018-12-27T14:25:17.030Z</updated>
   <id>http://zhouhengheng.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://zhouhengheng.com/2018/12/27/Hexo%E6%B7%BB%E5%8A%A0%E8%8F%9C%E5%8D%95/"/>
     <id>http://zhouhengheng.com/2018/12/27/Hexo添加菜单/</id>
     <published>2018-12-27T13:43:59.000Z</published>
-    <updated>2018-12-27T14:18:50.634Z</updated>
+    <updated>2018-12-27T14:25:17.030Z</updated>
     
-    <content type="html"><![CDATA[<p>下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。</p><font size="5"><strong>新建一个页面，命名为</strong></font><font color="red">study</font><td style="background-color:black">$hexo new page “study”</td><p>此时会在\source文件夹中生成一个study的新文件夹</p>]]></content>
+    <content type="html"><![CDATA[<p>下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。</p><font size="5"><strong>新建一个页面，命名为</strong></font><font color="red">study</font><p>$hexo new page “study”</p><p>此时会在\source文件夹中生成一个study的新文件夹</p>]]></content>
     
     <summary type="html">
     
@@ -32,7 +32,7 @@
         &lt;p&gt;下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。&lt;/p&gt;
 &lt;font size=&quot;5&quot;&gt;&lt;strong&gt;新建一个页面，命名为&lt;/strong&gt;&lt;/font&gt;&lt;font color=&quot;red&quot;&gt;study&lt;/font&gt;
 
-&lt;td style=&quot;backgrou
+&lt;p&gt;$hexo new page “
       
     
     </summary>
