@@ -1132,7 +1132,6 @@ pre .javascript .function {
   vertical-align: top;
 }
 .site-title {
-  display: inline-block;
   vertical-align: top;
   line-height: 36px;
   font-size: 30px;
@@ -2022,7 +2021,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3eff30;
+  background: #b4be61;
 }
 .links-of-blogroll {
   font-size: 13px;
