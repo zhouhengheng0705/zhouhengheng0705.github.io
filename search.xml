@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Hexo添加菜单]]></title>
     <url>%2F2018%2F12%2F27%2FHexo%E6%B7%BB%E5%8A%A0%E8%8F%9C%E5%8D%95%2F</url>
-    <content type="text"><![CDATA[下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。 新建一个页面，命名为study $hexo new page “study” 此时会在\source文件夹中生成一个study的新文件夹]]></content>
+    <content type="text"><![CDATA[下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。 新建一个页面，命名为study1$ hexo new page &quot;study&quot;此时会在\source文件夹中生成一个study的新文件夹编辑study文件下的md页面 将类型设置为resources,主题将自动生成study这个分类。 1234title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;--- 如果有启用多说或者Disqus评论，默认页面也会带有评论。需要关闭的话，请添加字段comments并将值设置为false，如： 12345title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;comments: false--- 在菜单中添加图标和链接 编辑主题的_config.yml，在其中的menu中添加如下： 12menu: study: /study/ || heartbeat 新添加的菜单需要翻译对应的中文打开theme&gt;next&gt;languages&gt;zh-Hans.yml，在menu下添加 12345678910menu: home: 首页 archives: 归档 categories: 分类 tags: 标签 about: 关于 search: 搜索 study: 学习 read: 读书 sitemap: 站点地图]]></content>
   </entry>
   <entry>
     <title><![CDATA[Markdown的常用写法]]></title>

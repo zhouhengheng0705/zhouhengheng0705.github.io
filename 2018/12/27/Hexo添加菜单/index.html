@@ -83,18 +83,17 @@
 
 
 
-<meta name="description" content="下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。 新建一个页面，命名为study  $hexo new page “study” 此时会在\source文件夹中生成一个study的新文件夹">
 <meta name="keywords" content="Self-discipline">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo添加菜单">
 <meta property="og:url" content="http://zhouhengheng.com/2018/12/27/Hexo添加菜单/index.html">
 <meta property="og:site_name" content="ShuuのBlog">
-<meta property="og:description" content="下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。 新建一个页面，命名为study  $hexo new page “study” 此时会在\source文件夹中生成一个study的新文件夹">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-27T14:25:17.030Z">
+<meta property="og:image" content="http://zhouhengheng.com/2018/12/27/Hexo添加菜单/high_tech_earth-wallpaper-800x480.jpg">
+<meta property="og:updated_time" content="2018-12-28T14:30:08.844Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo添加菜单">
-<meta name="twitter:description" content="下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。 新建一个页面，命名为study  $hexo new page “study” 此时会在\source文件夹中生成一个study的新文件夹">
+<meta name="twitter:image" content="http://zhouhengheng.com/2018/12/27/Hexo添加菜单/high_tech_earth-wallpaper-800x480.jpg">
 
 
 
@@ -422,7 +421,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  54字
+                  245字
                 </span>
               
 
@@ -458,11 +457,19 @@
       
 
       
-        <p>下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。</p>
-<font size="5"><strong>新建一个页面，命名为</strong></font><font color="red">study</font>
+        <p><img src="/2018/12/27/Hexo添加菜单/high_tech_earth-wallpaper-800x480.jpg" alt="&quot;电子地球&quot;"><br><a id="more"></a><br>下面介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。</p>
+<font size="4"><strong>新建一个页面，命名为</strong></font><font color="red">study</font><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page &quot;study&quot;</span><br></pre></td></tr></table></figure><br><br>此时会在\source文件夹中生成一个study的新文件夹<br><br><font size="4"><strong>编辑study文件下的md页面</strong></font>
 
-<p>$hexo new page “study”</p>
-<p>此时会在\source文件夹中生成一个study的新文件夹</p>
+<p>将类型设置为resources,主题将自动生成study这个分类。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: 学习</span><br><span class="line">date: 2017-12-14 13:05:38</span><br><span class="line">type: &quot;study&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>如果有启用多说或者Disqus评论，默认页面也会带有评论。需要关闭的话，请添加字段comments并将值设置为false，如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">title: 学习</span><br><span class="line">date: 2017-12-14 13:05:38</span><br><span class="line">type: &quot;study&quot;</span><br><span class="line">comments: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<font size="4"><strong>在菜单中添加图标和链接</strong></font>
+
+<p>编辑主题的<font color="red">_config.yml</font>，在其中的<font color="red">menu</font>中添加如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  study: /study/ || heartbeat</span><br></pre></td></tr></table></figure>
+<p><font size="4"><strong>新添加的菜单需要翻译对应的中文</strong></font><br>打开<font color="red">theme&gt;next&gt;languages&gt;zh-Hans.yml</font>，在menu下添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: 首页</span><br><span class="line">  archives: 归档</span><br><span class="line">  categories: 分类</span><br><span class="line">  tags: 标签</span><br><span class="line">  about: 关于</span><br><span class="line">  search: 搜索</span><br><span class="line">  study: 学习</span><br><span class="line">  read: 读书</span><br><span class="line">  sitemap: 站点地图</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -791,7 +798,7 @@
     <!-- 博客字数统计 -->
     <span class="site-pv">
       <i class="fa fa-pencil"></i>
-      博客全站共： <span class="post-count">650</span> 字
+      博客全站共： <span class="post-count">841</span> 字
     </span>
 
 </div>
