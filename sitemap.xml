@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhouhengheng.com/about/index.html</loc>
+    
+    <lastmod>2018-12-28T16:57:13.191Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhouhengheng.com/tags/index.html</loc>
+    
+    <lastmod>2018-12-28T16:55:25.896Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhouhengheng.com/read/index.html</loc>
+    
+    <lastmod>2018-12-28T16:53:11.043Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhouhengheng.com/study/index.html</loc>
     
-    <lastmod>2018-12-28T16:17:46.845Z</lastmod>
+    <lastmod>2018-12-28T16:51:47.550Z</lastmod>
     
   </url>
   
@@ -12,13 +33,6 @@
     <loc>http://zhouhengheng.com/categories/index.html</loc>
     
     <lastmod>2018-12-28T15:28:46.855Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhouhengheng.com/read/index.html</loc>
-    
-    <lastmod>2018-12-28T15:27:29.551Z</lastmod>
     
   </url>
   
@@ -33,20 +47,6 @@
     <loc>http://zhouhengheng.com/2018/11/18/Hexo%E5%8D%9A%E5%AE%A2%E5%91%95%E5%BF%83%E5%91%96%E8%A1%80%E6%90%AD%E5%BB%BA/</loc>
     
     <lastmod>2018-12-28T14:49:59.685Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhouhengheng.com/about/index.html</loc>
-    
-    <lastmod>2018-12-25T13:37:39.942Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhouhengheng.com/tags/index.html</loc>
-    
-    <lastmod>2018-12-25T13:31:33.800Z</lastmod>
     
   </url>
   
