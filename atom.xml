@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhouhengheng.com/"/>
-  <updated>2018-12-30T13:30:41.654Z</updated>
+  <updated>2018-12-30T13:55:36.213Z</updated>
   <id>http://zhouhengheng.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://zhouhengheng.com/Hexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91.html"/>
     <id>http://zhouhengheng.com/Hexo插入视频.html</id>
     <published>2018-12-30T13:16:48.000Z</published>
-    <updated>2018-12-30T13:30:41.654Z</updated>
+    <updated>2018-12-30T13:55:36.213Z</updated>
     
-    <content type="html"><![CDATA[<p><script type="text/javascript" src="/js/src/bai.js"></script><br>&nbsp;&nbsp;&nbsp;&nbsp;<font size="4"><strong>本篇文章介绍在Hexo的页面内插入视频。</strong></font></p><p><iframe width="560" height="315" src="https://www.youtube.com/embed/H5cWt_pJ3Hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><a id="more"></a></p><font size="4"><strong>YouTube视频插入方法</strong></font>]]></content>
+    <content type="html"><![CDATA[<p><script type="text/javascript" src="/js/src/bai.js"></script><br>&nbsp;&nbsp;&nbsp;&nbsp;<font size="4"><strong>本篇文章介绍在Hexo的页面内插入视频。</strong></font></p><p><iframe width="560" height="315" src="https://www.youtube.com/embed/H5cWt_pJ3Hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><a id="more"></a></p><p><font size="4"><strong>YouTube视频插入方法</strong></font><br>首先需要打开YouTobi官网(国内的小伙伴需要翻墙)，搜索自己感兴趣的视频。</p>]]></content>
     
     <summary type="html">
     

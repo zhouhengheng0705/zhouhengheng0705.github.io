@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Hexo插入视频]]></title>
     <url>%2FHexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91.html</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;本篇文章介绍在Hexo的页面内插入视频。 YouTube视频插入方法]]></content>
+    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;本篇文章介绍在Hexo的页面内插入视频。 YouTube视频插入方法首先需要打开YouTobi官网(国内的小伙伴需要翻墙)，搜索自己感兴趣的视频。]]></content>
       <categories>
         <category>hexo博客技术</category>
       </categories>
