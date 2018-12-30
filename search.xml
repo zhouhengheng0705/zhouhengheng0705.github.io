@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Hexo插入视频]]></title>
     <url>%2FHexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91.html</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;本篇文章介绍在Hexo的页面内插入视频。 YouTube视频插入方法首先需要打开YouTobi官网(国内的小伙伴需要翻墙)，搜索自己感兴趣的视频。在视屏右下方，点击共有按钮，日本YouTobi显示的是共有，纯英文网站应该显示的是share。出现分享页面，点击第一个按钮。打开链接生成页面，把红圈内的代码复制到你的md文件中，保存之后，$ hexo g -d 生成，就可以看到插入的视频了，如果有不懂的小伙伴可以留言给我。希望对您有帮助。]]></content>
+    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;本篇文章介绍在Hexo的页面内插入视频。 YouTube视频插入方法首先需要打开YouTobi官网(国内的小伙伴需要翻墙)，搜索自己感兴趣的视频。在视屏右下方，点击共有按钮，日本YouTobi显示的是共有，纯英文网站应该显示的是share。 在打开的页面上，点击第一个按钮。 打开链接生成页面，把红圈内的代码复制到你的md文件中，保存之后，$ hexo g -d 生成，就可以看到插入的视频了，如果有不懂的小伙伴可以留言给我。希望对您有帮助。]]></content>
       <categories>
         <category>hexo博客技术</category>
       </categories>
