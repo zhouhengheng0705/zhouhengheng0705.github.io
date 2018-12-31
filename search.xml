@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Hexo插入视频]]></title>
     <url>%2FHexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91.html</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;本篇文章介绍在Hexo的页面内插入视频。 YouTube视频插入方法首先需要打开YouTobi官网(国内的小伙伴需要翻墙)，搜索自己感兴趣的视频。在视屏右下方，点击共有按钮，日本YouTobi显示的是共有，纯英文网站应该显示的是share。 在打开的页面上，点击第一个按钮(有这个&lt;&gt;符号的按钮)，打开链接生成页面。 把红圈内的代码复制到你的md文件中，保存之后，$ hexo g -d 生成，就可以看到插入的视频了。 这篇文章以后还要讲解Hexo博客如果添加其他网站的视频，比如优酷，哔哩哔哩，腾讯视频等等，敬请期待。如果有什么问题和建议，可以留言给我。希望对您有帮助。]]></content>
+    <content type="text"><![CDATA[本篇文章介绍在Hexo的页面内插入视频。 YouTube视频插入方法首先需要打开YouTobi官网(国内的小伙伴需要翻墙)，搜索自己感兴趣的视频。在视屏右下方，点击共有按钮，日本YouTobi显示的是共有，纯英文网站应该显示的是share。 在打开的页面上，点击第一个按钮(有这个&lt;&gt;符号的按钮)，打开链接生成页面。 把红圈内的代码复制到你的md文件中，保存之后，$ hexo g -d 生成，就可以看到插入的视频了。 这篇文章以后还要讲解Hexo博客如果添加其他网站的视频，比如优酷，哔哩哔哩，腾讯视频等等，敬请期待。如果有什么问题和建议，可以留言给我。希望对您有帮助。]]></content>
       <categories>
         <category>hexo博客技术</category>
       </categories>
@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[Hexo添加菜单]]></title>
     <url>%2FHexo%E6%B7%BB%E5%8A%A0%E8%8F%9C%E5%8D%95.html</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;本篇文章介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。 新建一个页面，命名为study1$ hexo new page &quot;study&quot;此时会在\source文件夹中生成一个study的新文件夹编辑study文件下的md页面 将类型设置为study,主题将自动生成study这个分类。 1234title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;--- 如果有启用多说或者Disqus评论，默认页面也会带有评论。需要关闭的话，请添加字段comments并将值设置为false，如： 12345title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;comments: false--- 在菜单中添加图标和链接 编辑主题的_config.yml，在其中的menu中添加如下： 12menu: study: /study/ || heartbeat 新添加的菜单需要翻译对应的中文打开theme&gt;next&gt;languages&gt;zh-Hans.yml，在menu下添加 12345678910menu: home: 首页 archives: 归档 categories: 分类 tags: 标签 about: 关于 search: 搜索 study: 学习 read: 读书 sitemap: 站点地图]]></content>
+    <content type="text"><![CDATA[本篇文章介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。 新建一个页面，命名为study1$ hexo new page &quot;study&quot;此时会在\source文件夹中生成一个study的新文件夹编辑study文件下的md页面 将类型设置为study,主题将自动生成study这个分类。 1234title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;--- 如果有启用多说或者Disqus评论，默认页面也会带有评论。需要关闭的话，请添加字段comments并将值设置为false，如： 12345title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;comments: false--- 在菜单中添加图标和链接 编辑主题的_config.yml，在其中的menu中添加如下： 12menu: study: /study/ || heartbeat 新添加的菜单需要翻译对应的中文打开theme&gt;next&gt;languages&gt;zh-Hans.yml，在menu下添加 12345678910menu: home: 首页 archives: 归档 categories: 分类 tags: 标签 about: 关于 search: 搜索 study: 学习 read: 读书 sitemap: 站点地图]]></content>
       <categories>
         <category>hexo博客技术</category>
       </categories>
@@ -28,7 +28,7 @@
   <entry>
     <title><![CDATA[Markdown的常用写法]]></title>
     <url>%2FMarkdown%E7%9A%84%E5%86%99%E6%B3%95.html</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;hexo博客的文章都是用Markdown格式编写的，所以要想熟练的编写hexo博客的话，一些常用的格式&nbsp;&nbsp;&nbsp;&nbsp;还是需要了解一下的，本篇介绍几个常用的Markdown写法，有兴趣的小伙伴们可以学习一下。 1.列表 123456例: - The Beatles - Atom - git※注意:「-」和文字之间有半角空格。 2.标题 123456例:# 标题1## 标题2### 标题3※注意:「#」和文字之间有半角空格。 3.强调 12例:**Hello World** 4.引用 1234例:&gt; Beautiful is better than ugly.※注意:「&gt;」和文字之间有半角空格。 5.链接 12例:[我的博客](http://www.zhouhengheng.com) 6.取消线 12例:~~取消~~ 7.水平线 1234567格式: 从「&gt;」，「_」，「*」中任意并列三个以上例:---___*** 8.插入图片 12345格式: ![代替文字](图片URL “标题”)」）例:![名片工厂图片](https://meishi.artisj.com/summary/image/logo.gif &quot;名片工厂&quot;) 9.段落和改行 123456789段落空一整行。改行空两个半角空格以上。例:你学会使用Markdown格式了吗？只会一点，还在学习中。 10.段首空格/段首缩进1234567格式:&amp;nbsp;//半角空格&amp;emsp;//全角空格例:&amp;emsp;我叫张三。&amp;nbsp;我喜欢学习和分享。11.代码引用 ①指定开发语言时 例: ```python def hello_world(): print(‘Hello world!’) hello_world() ``` ②未指定开发语言时 例: ``` print(‘Hello world!) ```]]></content>
+    <content type="text"><![CDATA[hexo博客的文章都是用Markdown格式编写的，所以要想熟练的编写hexo博客的话，一些常用的格式还是需要了解一下的，本篇介绍几个常用的Markdown写法，有兴趣的小伙伴们可以学习一下。 1.列表 123456例: - The Beatles - Atom - git※注意:「-」和文字之间有半角空格。 2.标题 123456例:# 标题1## 标题2### 标题3※注意:「#」和文字之间有半角空格。 3.强调 12例:**Hello World** 4.引用 1234例:&gt; Beautiful is better than ugly.※注意:「&gt;」和文字之间有半角空格。 5.链接 12例:[我的博客](http://www.zhouhengheng.com) 6.取消线 12例:~~取消~~ 7.水平线 1234567格式: 从「&gt;」，「_」，「*」中任意并列三个以上例:---___*** 8.插入图片 12345格式: ![代替文字](图片URL “标题”)」）例:![名片工厂图片](https://meishi.artisj.com/summary/image/logo.gif &quot;名片工厂&quot;) 9.段落和改行 123456789段落空一整行。改行空两个半角空格以上。例:你学会使用Markdown格式了吗？只会一点，还在学习中。 10.段首空格/段首缩进1234567格式:&amp;nbsp;//半角空格&amp;emsp;//全角空格例:&amp;emsp;我叫张三。&amp;nbsp;我喜欢学习和分享。11.代码引用 ①指定开发语言时 例: ```python def hello_world(): print(‘Hello world!’) hello_world() ``` ②未指定开发语言时 例: ``` print(‘Hello world!) ```]]></content>
       <categories>
         <category>hexo博客技术</category>
       </categories>
@@ -39,7 +39,7 @@
   <entry>
     <title><![CDATA[呕心呖血搭建Hexo博客]]></title>
     <url>%2FHexo%E5%8D%9A%E5%AE%A2%E5%91%95%E5%BF%83%E5%91%96%E8%A1%80%E6%90%AD%E5%BB%BA.html</url>
-    <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;自己的博客正式开始搭建，希望在今后的日子里更加努力，多读书，多学习，多分享。 这个周末几乎一直在电脑前，不停的查着各种Hexo博客搭建的教程，吃力的搭建着属于自己的个人博客。虽然自己的脊椎和眼睛的疼痛不断提醒着自己该适当休息一下了，可是搭建博客的乐趣使我沉浸其中，无法自拔。终于在谷歌上输入自己域名后，自己的Hexo博客呈现的那一刻，才感觉自己的付出没有白费。就像刚开始进入IT行业一样，文科出身的我一点编程的基础没有。在密密麻麻的代码面前，我像看天书一样，一个一个的代码完全琢磨不透是什么意思。不过自己还是每天坚持下来了。真的很感谢那时的自己。不管遇到什么样的困难，只要朝准正确的方向，坚持不懈的努力，肯定会收获自己想要的结果的。 从现在开始，自己会慢慢修缮自己的博客，并且在博客上记录自己学习和成长路上的点点滴滴。加油。]]></content>
+    <content type="text"><![CDATA[自己的博客正式开始搭建，希望在今后的日子里更加努力，多读书，多学习，多分享。 这个周末几乎一直在电脑前，不停的查着各种Hexo博客搭建的教程，吃力的搭建着属于自己的个人博客。虽然自己的脊椎和眼睛的疼痛不断提醒着自己该适当休息一下了，可是搭建博客的乐趣使我沉浸其中，无法自拔。终于在谷歌上输入自己域名后，自己的Hexo博客呈现的那一刻，才感觉自己的付出没有白费。就像刚开始进入IT行业一样，文科出身的我一点编程的基础没有。在密密麻麻的代码面前，我像看天书一样，一个一个的代码完全琢磨不透是什么意思。不过自己还是每天坚持下来了。真的很感谢那时的自己。不管遇到什么样的困难，只要朝准正确的方向，坚持不懈的努力，肯定会收获自己想要的结果的。 从现在开始，自己会慢慢修缮自己的博客，并且在博客上记录自己学习和成长路上的点点滴滴。加油。]]></content>
       <categories>
         <category>生活感悟</category>
       </categories>
