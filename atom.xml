@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhouhengheng.com/"/>
-  <updated>2018-12-30T14:35:17.474Z</updated>
+  <updated>2018-12-31T01:46:11.040Z</updated>
   <id>http://zhouhengheng.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://zhouhengheng.com/Hexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91.html"/>
     <id>http://zhouhengheng.com/Hexo插入视频.html</id>
     <published>2018-12-30T13:16:48.000Z</published>
-    <updated>2018-12-30T14:35:17.474Z</updated>
+    <updated>2018-12-31T01:46:11.040Z</updated>
     
-    <content type="html"><![CDATA[<p><script type="text/javascript" src="/js/src/bai.js"></script><br>&nbsp;&nbsp;&nbsp;&nbsp;<font size="4"><strong>本篇文章介绍在Hexo的页面内插入视频。</strong></font></p><p><iframe width="560" height="315" src="https://www.youtube.com/embed/H5cWt_pJ3Hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><a id="more"></a></p><p><font size="4"><strong>YouTube视频插入方法</strong></font><br>首先需要打开YouTobi官网(国内的小伙伴需要翻墙)，搜索自己感兴趣的视频。在视屏右下方，点击<font color="red">共有</font>按钮，日本YouTobi显示的是共有，纯英文网站应该显示的是share。<br><img src="https://raw.githubusercontent.com/zhouhengheng0705/zhouhengheng0705.github.io/master/Hexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91/YouTobe.jpg" alt="&quot;YouTobe1&quot;"></p><p>在打开的页面上，点击第一个按钮。<br><img src="https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/Hexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91/YouTobe2.jpg?raw=true" alt="&quot;YouTobe2&quot;"></p><p>打开链接生成页面，把红圈内的代码复制到你的md文件中，保存之后，$ hexo g -d 生成，就可以看到插入的视频了，如果有不懂的小伙伴可以留言给我。希望对您有帮助。<br><img src="https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/Hexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91/YouTobe3.jpg?raw=true" alt="&quot;YouTobe3&quot;"></p>]]></content>
+    <content type="html"><![CDATA[<p><script type="text/javascript" src="/js/src/bai.js"></script><br>&nbsp;&nbsp;&nbsp;&nbsp;<font size="4"><strong>本篇文章介绍在Hexo的页面内插入视频。</strong></font></p><p><iframe width="560" height="315" src="https://www.youtube.com/embed/H5cWt_pJ3Hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><a id="more"></a></p><p><font size="4"><strong>YouTube视频插入方法</strong></font><br>首先需要打开YouTobi官网(国内的小伙伴需要翻墙)，搜索自己感兴趣的视频。在视屏右下方，点击<font color="red">共有</font>按钮，日本YouTobi显示的是共有，纯英文网站应该显示的是share。<br><img src="https://raw.githubusercontent.com/zhouhengheng0705/zhouhengheng0705.github.io/master/Hexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91/YouTobe.jpg" alt="&quot;YouTobe1&quot;"></p><p>在打开的页面上，点击第一个按钮(有这个&lt;&gt;符号的按钮)，打开链接生成页面。<br><img src="https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/Hexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91/YouTobe2.jpg?raw=true" alt="&quot;YouTobe2&quot;"></p><p>把红圈内的代码复制到你的md文件中，保存之后，$ hexo g -d 生成，就可以看到插入的视频了。<br><img src="https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/Hexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91/YouTobe3.jpg?raw=true" alt="&quot;YouTobe3&quot;"></p><p>这篇文章以后还要讲解Hexo博客如果添加其他网站的视频，比如优酷，哔哩哔哩，腾讯视频等等，敬请期待。如果有什么问题和建议，可以留言给我。希望对您有帮助。</p>]]></content>
     
     <summary type="html">
     
@@ -58,11 +58,11 @@
       <category term="hexo博客技术" scheme="http://zhouhengheng.com/categories/hexo%E5%8D%9A%E5%AE%A2%E6%8A%80%E6%9C%AF/"/>
     
     
+      <category term="html" scheme="http://zhouhengheng.com/tags/html/"/>
+    
       <category term="javascript" scheme="http://zhouhengheng.com/tags/javascript/"/>
     
       <category term="CSS" scheme="http://zhouhengheng.com/tags/CSS/"/>
-    
-      <category term="html" scheme="http://zhouhengheng.com/tags/html/"/>
     
       <category term="Markdown" scheme="http://zhouhengheng.com/tags/Markdown/"/>
     
