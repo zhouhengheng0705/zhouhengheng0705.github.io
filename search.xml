@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[2018总结和2019目标]]></title>
+    <url>%2F2018%E6%80%BB%E7%BB%93%E5%92%8C2019%E7%9B%AE%E6%A0%87.html</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo插入视频]]></title>
     <url>%2FHexo%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91.html</url>
     <content type="text"><![CDATA[本篇文章介绍在Hexo的页面内插入视频。 YouTube视频插入方法首先需要打开YouTobi官网(国内的小伙伴需要翻墙)，搜索自己感兴趣的视频。在视屏右下方，点击共有按钮，日本YouTobi显示的是共有，纯英文网站应该显示的是share。 在打开的页面上，点击第一个按钮(有这个&lt;&gt;符号的按钮)，打开链接生成页面。 把红圈内的代码复制到你的md文件中，保存之后，$ hexo g -d 生成，就可以看到插入的视频了。 这篇文章以后还要讲解Hexo博客如果添加其他网站的视频，比如优酷，哔哩哔哩，腾讯视频等等，敬请期待。如果有什么问题和建议，可以留言给我。希望对您有帮助。]]></content>
@@ -20,9 +25,9 @@
       </categories>
       <tags>
         <tag>html</tag>
+        <tag>Markdown</tag>
         <tag>javascript</tag>
         <tag>CSS</tag>
-        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
