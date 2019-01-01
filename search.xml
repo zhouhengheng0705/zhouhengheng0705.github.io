@@ -3,7 +3,14 @@
   <entry>
     <title><![CDATA[实现Hexo博客从HTTP到HTTPS加密]]></title>
     <url>%2F%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E4%BB%8EHTTP%E5%88%B0HTTPS%E5%8A%A0%E5%AF%86.html</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[本篇文章介绍如何将http的Hexo博客升级为加密的https网站。想必玩hexo博客的小伙伴们，都想把自己http网站升级成拥有加密传输的https网站。好处大致有三个，一是为了增加数据传输安全，二是谷歌百度等搜索都优先收录https网站，所以能一定程度上提高SEO排名，最后我认为有把小绿锁，能增加心里成就感。废话不多说，直接进入正题。如何将http的Hexo博客升级为加密的https网站？]]></content>
+      <categories>
+        <category>hexo博客技术</category>
+      </categories>
+      <tags>
+        <tag>https</tag>
+        <tag>CloudFlare</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[2018总结和2019目标]]></title>
