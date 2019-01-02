@@ -37,7 +37,7 @@
   <entry>
     <title><![CDATA[Hexo添加菜单]]></title>
     <url>%2FHexo%E6%B7%BB%E5%8A%A0%E8%8F%9C%E5%8D%95.html</url>
-    <content type="text"><![CDATA[本篇文章介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。 新建一个页面，命名为study1$ hexo new page &quot;study&quot;此时会在\source文件夹中生成一个study的新文件夹编辑study文件下的md页面 将类型设置为study,主题将自动生成study这个分类。 1234title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;--- 如果有启用多说或者Disqus评论，默认页面也会带有评论。需要关闭的话，请添加字段comments并将值设置为false，如： 12345title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;comments: false--- 在菜单中添加图标和链接 编辑主题的_config.yml，在其中的menu中添加如下： 12menu: study: /study/ || heartbeat 新添加的菜单需要翻译对应的中文打开theme&gt;next&gt;languages&gt;zh-Hans.yml，在menu下添加 12345678910menu: home: 首页 archives: 归档 categories: 分类 tags: 标签 about: 关于 search: 搜索 study: 学习 read: 读书 sitemap: 站点地图]]></content>
+    <content type="text"><![CDATA[本篇文章介绍在Hexo的Next主题下新添加一个”学习”的菜单分类。新建一个页面，命名为study1$ hexo new page &quot;study&quot;此时会在\source文件夹中生成一个study的新文件夹编辑study文件下的md页面 将类型设置为study,主题将自动生成study这个分类。 1234title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;--- 如果有启用多说或者Disqus评论，默认页面也会带有评论。需要关闭的话，请添加字段comments并将值设置为false，如： 12345title: 学习date: 2017-12-14 13:05:38type: &quot;study&quot;comments: false--- 在菜单中添加图标和链接 编辑主题的_config.yml，在其中的menu中添加如下： 12menu: study: /study/ || heartbeat 新添加的菜单需要翻译对应的中文打开theme&gt;next&gt;languages&gt;zh-Hans.yml，在menu下添加 12345678910menu: home: 首页 archives: 归档 categories: 分类 tags: 标签 about: 关于 search: 搜索 study: 学习 read: 读书 sitemap: 站点地图]]></content>
       <categories>
         <category>hexo博客技术</category>
       </categories>
@@ -51,7 +51,7 @@
   <entry>
     <title><![CDATA[Markdown的常用写法]]></title>
     <url>%2FMarkdown%E7%9A%84%E5%86%99%E6%B3%95.html</url>
-    <content type="text"><![CDATA[hexo博客的文章都是用Markdown格式编写的，所以要想熟练的编写hexo博客的话，一些常用的格式还是需要了解一下的，本篇介绍几个常用的Markdown写法，有兴趣的小伙伴们可以学习一下。 1.列表 123456例: - The Beatles - Atom - git※注意:「-」和文字之间有半角空格。 2.标题 123456例:# 标题1## 标题2### 标题3※注意:「#」和文字之间有半角空格。 3.强调 12例:**Hello World** 4.引用 1234例:&gt; Beautiful is better than ugly.※注意:「&gt;」和文字之间有半角空格。 5.链接 12例:[我的博客](http://www.zhouhengheng.com) 6.取消线 12例:~~取消~~ 7.水平线 1234567格式: 从「&gt;」，「_」，「*」中任意并列三个以上例:---___*** 8.插入图片 12345格式: ![代替文字](图片URL “标题”)」）例:![名片工厂图片](https://meishi.artisj.com/summary/image/logo.gif &quot;名片工厂&quot;) 9.段落和改行 123456789段落空一整行。改行空两个半角空格以上。例:你学会使用Markdown格式了吗？只会一点，还在学习中。 10.段首空格/段首缩进1234567格式:&amp;nbsp;//半角空格&amp;emsp;//全角空格例:&amp;emsp;我叫张三。&amp;nbsp;我喜欢学习和分享。11.代码引用 ①指定开发语言时 例: ```python def hello_world(): print(‘Hello world!’) hello_world() ``` ②未指定开发语言时 例: ``` print(‘Hello world!) ```]]></content>
+    <content type="text"><![CDATA[hexo博客的文章都是用Markdown格式编写的，所以要想熟练的编写hexo博客的话，一些常用的格式还是需要了解一下的，本篇介绍几个常用的Markdown写法，有兴趣的小伙伴们可以学习一下。1.列表 123456例: - The Beatles - Atom - git※注意:「-」和文字之间有半角空格。 2.标题 123456例:# 标题1## 标题2### 标题3※注意:「#」和文字之间有半角空格。 3.强调 12例:**Hello World** 4.引用 1234例:&gt; Beautiful is better than ugly.※注意:「&gt;」和文字之间有半角空格。 5.链接 12例:[我的博客](http://www.zhouhengheng.com) 6.取消线 12例:~~取消~~ 7.水平线 1234567格式: 从「&gt;」，「_」，「*」中任意并列三个以上例:---___*** 8.插入图片 12345格式: ![代替文字](图片URL “标题”)」）例:![名片工厂图片](https://meishi.artisj.com/summary/image/logo.gif &quot;名片工厂&quot;) 9.段落和改行 123456789段落空一整行。改行空两个半角空格以上。例:你学会使用Markdown格式了吗？只会一点，还在学习中。 10.段首空格/段首缩进1234567格式:&amp;nbsp;//半角空格&amp;emsp;//全角空格例:&amp;emsp;我叫张三。&amp;nbsp;我喜欢学习和分享。11.代码引用 ①指定开发语言时 例: ```python def hello_world(): print(‘Hello world!’) hello_world() ``` ②未指定开发语言时 例: ``` print(‘Hello world!) ```]]></content>
       <categories>
         <category>hexo博客技术</category>
       </categories>
