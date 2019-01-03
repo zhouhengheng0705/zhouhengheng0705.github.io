@@ -444,7 +444,7 @@ body {
 }
 .header-inner {
   margin: 0 auto;
-  padding: 140px 0 160px;
+  padding: 90px 0 200px;
   width: 700px;
 }
 @media (min-width: 1600px) {
@@ -1703,16 +1703,6 @@ pre .javascript .function {
   display: inline-block;
   margin: 0.8em 2em 0 2em;
 }
-#wechat:hover p {
-  animation: roll 0.1s infinite linear;
-  -webkit-animation: roll 0.1s infinite linear;
-  -moz-animation: roll 0.1s infinite linear;
-}
-#alipay:hover p {
-  animation: roll 0.1s infinite linear;
-  -webkit-animation: roll 0.1s infinite linear;
-  -moz-animation: roll 0.1s infinite linear;
-}
 #bitcoin:hover p {
   animation: roll 0.1s infinite linear;
   -webkit-animation: roll 0.1s infinite linear;
@@ -2022,7 +2012,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a1c1de;
+  background: #c4be8c;
 }
 .links-of-blogroll {
   font-size: 13px;
