@@ -444,7 +444,7 @@ body {
 }
 .header-inner {
   margin: 0 auto;
-  padding: 90px 0 200px;
+  padding: 90px 0 180px;
   width: 700px;
 }
 @media (min-width: 1600px) {
@@ -973,16 +973,6 @@ pre .javascript .function {
 .btn-bar+.btn-bar {
   margin-top: 4px;
 }
-.Linkbtn {
-  display: inline-block;
-  font-size: 14px;
-  text-decoration: none;
-  border-radius: 0;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
-  border: 0;
-}
 .pagination {
   margin: 120px 0 40px;
   text-align: center;
@@ -1129,11 +1119,10 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: #222;
   border-bottom: none;
 }
 .brand:hover {
-  color: #fff;
+  color: #ffa500;
 }
 .logo {
   display: inline-block;
@@ -1144,15 +1133,19 @@ pre .javascript .function {
 .site-title {
   display: inline-block;
   vertical-align: top;
-  line-height: 36px;
-  font-size: 30px;
-  font-weight: normal;
+  line-height: 60px;
+  font-size: 60px;
+  font-weight: bold;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  border: 0;
 }
 .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
-  color: #999;
+  color: #fff;
+}
+.site-subtitle:hover {
+  color: #ffa500;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1183,7 +1176,7 @@ pre .javascript .function {
 }
 @media (max-width: 767px) {
   .site-nav {
-    display: none;
+    display: block;
     margin: 0 -10px;
     padding: 0 10px;
     clear: both;
@@ -1221,17 +1214,19 @@ pre .javascript .function {
 }
 .menu .menu-item a {
   display: block;
-  font-size: 15px;
+  font-size: 17px;
   color: #fff;
   line-height: inherit;
-  border-bottom: 1px solid transparent;
   transition-property: border-color;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  text-decoration: none;
+  border: 0;
 }
 .menu .menu-item a:hover {
-  border-bottom-color: #222;
+  color: #000;
+  font-weight: bold;
 }
 .menu .menu-item .fa {
   margin-right: 5px;
@@ -2022,7 +2017,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2ac74d;
+  background: #ebd973;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2192,6 +2187,16 @@ a:hover {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
+}
+.list-inline>li:hover {
+  color: #008000;
+}
+.list-inline>li a {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  text-decoration: none;
+  border: 0;
 }
 .theme-next #ds-thread #ds-reset {
   color: #555;
