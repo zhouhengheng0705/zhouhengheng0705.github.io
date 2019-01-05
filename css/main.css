@@ -2037,7 +2037,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a18cf7;
+  background: #8bffaa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2209,7 +2209,7 @@ a:hover {
   padding-left: 5px;
 }
 .list-inline>li:hover {
-  color: #ffa500;
+  color: #fc6423;
 }
 .list-inline>li a {
   transition-duration: 0.2s;
