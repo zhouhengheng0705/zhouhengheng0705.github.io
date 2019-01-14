@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhouhengheng.com/travel/index.html</loc>
+    
+    <lastmod>2019-01-14T13:42:51.832Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhouhengheng.com/%E5%85%B3%E4%BA%8E%E6%97%B6%E9%97%B4.html</loc>
     
     <lastmod>2019-01-14T13:20:01.658Z</lastmod>
@@ -75,20 +82,6 @@
     <loc>https://zhouhengheng.com/plan/index.html</loc>
     
     <lastmod>2018-12-28T17:27:12.375Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhouhengheng.com/travel/index.html</loc>
-    
-    <lastmod>2018-12-28T17:17:38.809Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhouhengheng.com/study/index.html</loc>
-    
-    <lastmod>2018-12-28T16:51:47.550Z</lastmod>
     
   </url>
   
