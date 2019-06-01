@@ -1178,7 +1178,7 @@ pre .javascript .function {
 @media (max-width: 767px) {
   .site-nav-toggle {
     display: block;
-    margin: 8px 0px 200px 287px;
+    margin: 8px 0px 200px 290px;
     margin-bottom: auto;
     top: 5px;
   }
@@ -2041,7 +2041,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c46e70;
+  background: #40ffab;
 }
 .links-of-blogroll {
   font-size: 13px;
