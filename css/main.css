@@ -1101,6 +1101,9 @@ pre .javascript .function {
 .header-inner {
   position: relative;
 }
+.site-brand-wrapper {
+  margin: 30px;
+}
 .headband {
   height: 3px;
   background: #222;
@@ -1257,6 +1260,18 @@ pre .javascript .function {
 }
 .use-motion .menu-item {
   opacity: 0;
+}
+.topmenu {
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0,128,0,0.8);
+  z-index: 1000;
+  transition: 1s opacity;
+  -moz-transition: 1s opacity;
+  -webkit-transition: 1s opacity;
 }
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -2041,7 +2056,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #40ffab;
+  background: #ed4eff;
 }
 .links-of-blogroll {
   font-size: 13px;
