@@ -444,7 +444,7 @@ body {
 }
 .header-inner {
   margin: 0 auto;
-  padding: 90px 0 270px;
+  padding: 90px 0 300px;
   width: 700px;
 }
 @media (min-width: 1600px) {
@@ -1212,7 +1212,7 @@ pre .javascript .function {
   }
 }
 .menu {
-  margin-top: 15px;
+  margin-top: 0px;
   padding-left: 0;
   text-align: center;
   font-size: 20px;
@@ -1230,6 +1230,11 @@ pre .javascript .function {
   }
 }
 .menu .menu-item a {
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  margin: 0;
   display: block;
   font-size: 17px;
   color: #fff;
@@ -1241,18 +1246,62 @@ pre .javascript .function {
   text-decoration: none;
   border: 0;
 }
+.menu .menu-item a p {
+  position: relative;
+  top: 0px;
+  margin: 0;
+  text-align: center;
+  font-size: 1.2em;
+  transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+}
 .menu .menu-item a:hover {
-  color: #000;
   font-weight: bold;
-  background: #fff;
-  border-radius: 30px;
+}
+.menu .menu-item a:hover p.icon {
+  top: 6px;
+}
+.menu .menu-item a:hover p {
+  top: -7px;
+  opacity: 1;
 }
 @media screen and (max-width: 767px) {
   .menu .menu-item a {
-    color: #000;
-    font-weight: bold;
-    background: #fff;
-    font-size: 15px;
+    background-color: rgba(0,128,0,0.8);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    line-height: 60px;
+    position: relative;
+    left: 0;
+    transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+  }
+}
+.menu .menu-item a p {
+  font-size: 17px;
+  top: -13px;
+  opacity: 0;
+}
+@media screen and (max-width: 767px) {
+  .menu .menu-item a p {
+    float: right;
+    margin: 0;
+    margin-left: 10px;
+    line-height: 40px;
+    opacity: 1;
+    top: 18px;
+  }
+}
+.menu .menu-item a p.icon {
+  opacity: 1;
+  font-size: 20px;
+  top: 18px;
+}
+@media screen and (max-width: 767px) {
+  .menu .menu-item a p.icon {
+    float: left;
+    margin-right: 10px;
   }
 }
 .menu .menu-item .fa {
@@ -1261,7 +1310,7 @@ pre .javascript .function {
 .use-motion .menu-item {
   opacity: 0;
 }
-.topmenu {
+#topmenu {
   position: fixed;
   top: 0;
   height: 80px;
@@ -1272,6 +1321,81 @@ pre .javascript .function {
   transition: 1s opacity;
   -moz-transition: 1s opacity;
   -webkit-transition: 1s opacity;
+}
+.hide {
+  opacity: 0;
+}
+#menu li:nth-child(2) {
+  transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  -webkit-transition-delay: 0.1s;
+}
+#menu li:nth-child(3) {
+  transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
+}
+#menu li:nth-child(4) {
+  transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  -webkit-transition-delay: 0.3s;
+}
+#menu li:nth-child(5) {
+  transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -webkit-transition-delay: 0.4s;
+}
+#menu li:nth-child(6) {
+  transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+}
+#menu li:nth-child(7) {
+  transition-delay: 0.6s;
+  -moz-transition-delay: 0.6s;
+  -webkit-transition-delay: 0.6s;
+}
+#menu.hide li:nth-child(1) {
+  transition-delay: 0.7s;
+  -moz-transition-delay: 0.7s;
+  -webkit-transition-delay: 0.7s;
+}
+#menu.hide li:nth-child(2) {
+  transition-delay: 0.6s;
+  -moz-transition-delay: 0.6s;
+  -webkit-transition-delay: 0.6s;
+}
+#menu.hide li:nth-child(3) {
+  transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+}
+#menu.hide li:nth-child(4) {
+  transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -webkit-transition-delay: 0.4s;
+}
+#menu.hide li:nth-child(5) {
+  transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  -webkit-transition-delay: 0.3s;
+}
+#menu.hide li:nth-child(6) {
+  transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
+}
+#menu.hide li:nth-child(7) {
+  transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  -webkit-transition-delay: 0.1s;
+}
+#menu.hide li {
+  left: -100px;
+  opacity: 0;
+}
+#menu a {
+  color: #fff;
 }
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -2056,7 +2180,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ed4eff;
+  background: #475425;
 }
 .links-of-blogroll {
   font-size: 13px;
