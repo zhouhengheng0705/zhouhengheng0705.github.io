@@ -4,7 +4,7 @@ $(window).scroll(
   {
     var documentScroll = document.documentElement.scrollTop || document.body.scrollTop;
 
-    if( documentScroll > 530)
+    if( documentScroll > 500)
     {
       //$('topmenu').removeClass('hide');
       $('#topmenu').css('backgroundColor','rgba(0,128,0,0.9)');
