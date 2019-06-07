@@ -1316,11 +1316,12 @@ pre .javascript .function {
   height: 80px;
   width: 100%;
   color: #fff;
-  background-color: rgba(0,128,0,0.8);
+  background-color: rgba(0,0,0,0);
   z-index: 1000;
-  transition: 1s opacity;
   -moz-transition: 1s opacity;
   -webkit-transition: 1s opacity;
+  animation: appeare 5s ease 3s 1 normal forwards running;
+  transition: 0.7s;
 }
 .hide {
   opacity: 0;
@@ -2180,7 +2181,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #475425;
+  background: #bbeb32;
 }
 .links-of-blogroll {
   font-size: 13px;
