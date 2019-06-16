@@ -1090,7 +1090,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/images/house_on_the_ocean-wallpaper-2048x1152.jpg?raw=true") no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/images/newheader.jpg?raw=true") no-repeat;
   background-size: cover;
   background-color: #808080;
   background-position: center;
@@ -2202,7 +2202,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #de3cf1;
+  background: #706982;
 }
 .links-of-blogroll {
   font-size: 13px;
