@@ -83,15 +83,20 @@
 
 
 
+<meta name="description" content="ASP.Net Response.Redirect or Server.Transfer: Open New Tab from Code Behind">
 <meta name="keywords" content="Self-discipline">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C# study 2">
+<meta property="og:title" content="C# Study 2">
 <meta property="og:url" content="https://zhouhengheng.com/C-study-2.html">
 <meta property="og:site_name" content="ShuuのBlog">
+<meta property="og:description" content="ASP.Net Response.Redirect or Server.Transfer: Open New Tab from Code Behind">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-08T14:07:42.670Z">
+<meta property="og:image" content="https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/C-study-2/sky_clouds-wallpaper-960x600.jpg?raw=true">
+<meta property="og:updated_time" content="2019-07-08T14:24:12.672Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="C# study 2">
+<meta name="twitter:title" content="C# Study 2">
+<meta name="twitter:description" content="ASP.Net Response.Redirect or Server.Transfer: Open New Tab from Code Behind">
+<meta name="twitter:image" content="https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/C-study-2/sky_clouds-wallpaper-960x600.jpg?raw=true">
 
 
 
@@ -154,7 +159,7 @@
   </script>
 
 
-  <title>C# study 2 | ShuuのBlog</title>
+  <title>C# Study 2 | ShuuのBlog</title>
   
 
 
@@ -387,7 +392,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">C# study 2</h2>
+          <h2 class="post-title" itemprop="name headline">C# Study 2</h2>
         
 
         <div class="post-meta">
@@ -439,7 +444,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0字
+                  269字
                 </span>
               
 
@@ -476,6 +481,14 @@
 
       
         <script type="text/javascript" src="/js/src/bai.js"></script>
+
+<h1 id="ASP-Net-Response-Redirect-or-Server-Transfer-Open-New-Tab-from-Code-Behind"><a href="#ASP-Net-Response-Redirect-or-Server-Transfer-Open-New-Tab-from-Code-Behind" class="headerlink" title="ASP.Net Response.Redirect or Server.Transfer: Open New Tab from Code Behind"></a>ASP.Net Response.Redirect or Server.Transfer: Open New Tab from Code Behind</h1><p><img src="https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/C-study-2/sky_clouds-wallpaper-960x600.jpg?raw=true" alt="&quot;time2&quot;"><br><a id="more"></a></p>
+<h2 id="Thus-with-the-help-of-JavaScript-we-can-set-the-target-property-of-form-to-blank-whenever-we-want-to-open-the-page-in-a-new-window-Refer-below"><a href="#Thus-with-the-help-of-JavaScript-we-can-set-the-target-property-of-form-to-blank-whenever-we-want-to-open-the-page-in-a-new-window-Refer-below" class="headerlink" title="Thus with the help of JavaScript we can set the target property of form to _blank whenever we want to open the page in a new window. Refer below"></a>Thus with the help of JavaScript we can set the target property of form to _blank whenever we want to open the page in a new window. Refer below</h2><h2 id="I-have-an-ASP-Net-Button"><a href="#I-have-an-ASP-Net-Button" class="headerlink" title="I have an ASP.Net Button"></a>I have an ASP.Net Button</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Aspx</span><br><span class="line"></span><br><span class="line">&lt;asp:Button ID=&quot;Button1&quot; runat=&quot;server&quot; Text=&quot;Button&quot;</span><br><span class="line"></span><br><span class="line">    onclick=&quot;Button1_Click&quot; OnClientClick = &quot;SetTarget();&quot; /&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="I-am-calling-the-SetTarget-JavaScript-function-OnClientClick-event-of-the-ASP-Net-Button-Control-as-described-below"><a href="#I-am-calling-the-SetTarget-JavaScript-function-OnClientClick-event-of-the-ASP-Net-Button-Control-as-described-below" class="headerlink" title="I am calling the SetTarget() JavaScript function OnClientClick event of the ASP.Net Button Control as described below"></a>I am calling the SetTarget() JavaScript function OnClientClick event of the ASP.Net Button Control as described below</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">JavaScript</span><br><span class="line"></span><br><span class="line">&lt;script type = <span class="string">"text/javascript"</span>&gt;</span><br><span class="line"></span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">SetTarget</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">     <span class="built_in">document</span>.forms[<span class="number">0</span>].target = <span class="string">"_blank"</span>;</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="As-you-can-see-above-I-am-setting-the-target-property-of-the-HTML-FORM-to-blank"><a href="#As-you-can-see-above-I-am-setting-the-target-property-of-the-HTML-FORM-to-blank" class="headerlink" title="As you can see above I am setting the target property of the HTML FORM to _blank"></a>As you can see above I am setting the target property of the HTML FORM to _blank</h2><h2 id="Secondly-I-am-calling-the-Button1-Click-method-OnClick-event-Control-as-described-below"><a href="#Secondly-I-am-calling-the-Button1-Click-method-OnClick-event-Control-as-described-below" class="headerlink" title="Secondly I am calling the Button1_Click method OnClick event Control as described below"></a>Secondly I am calling the Button1_Click method OnClick event Control as described below</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">C#</span><br><span class="line"></span><br><span class="line">protected void Button1_Click(object sender, EventArgs e)</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    Response.Redirect(&quot;page2.aspx&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">VB.Net</span><br><span class="line"></span><br><span class="line"><span class="keyword">Protected</span> <span class="keyword">Sub</span> Button1_Click(<span class="keyword">ByVal</span> sender <span class="keyword">As</span> <span class="built_in">Object</span>, <span class="keyword">ByVal</span> e <span class="keyword">As</span> System.EventArgs) <span class="keyword">Handles</span> Button1.Click</span><br><span class="line"></span><br><span class="line">        Response.Redirect(<span class="string">"Page2.aspx"</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
+<h2 id="Thus-now-when-you-click-on-the-Button-the-JavaScript-function-sets-the-target-property-of-the-form-is-to-blank-Thus-when-PostBack-occurs-it-first-opens-the-current-page-in-new-window-and-then-executes-the-Response-Redirect-method-thus-helping-us-achieve-our-goal"><a href="#Thus-now-when-you-click-on-the-Button-the-JavaScript-function-sets-the-target-property-of-the-form-is-to-blank-Thus-when-PostBack-occurs-it-first-opens-the-current-page-in-new-window-and-then-executes-the-Response-Redirect-method-thus-helping-us-achieve-our-goal" class="headerlink" title="Thus now when you click on the Button, the JavaScript function sets the target property of the form is to _blank Thus when PostBack occurs it first opens the current page in new window and then executes the Response.Redirect method thus helping us achieve our goal."></a>Thus now when you click on the Button, the JavaScript function sets the target property of the form is to _blank Thus when PostBack occurs it first opens the current page in new window and then executes the Response.Redirect method thus helping us achieve our goal.</h2><h2 id="Same-way-we-can-use-Server-Transfer-on-the-Button-Click-event"><a href="#Same-way-we-can-use-Server-Transfer-on-the-Button-Click-event" class="headerlink" title="Same way we can use Server.Transfer on the Button Click event"></a>Same way we can use Server.Transfer on the Button Click event</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">C#</span><br><span class="line"></span><br><span class="line">protected void Button1_Click(object sender, EventArgs e)</span><br><span class="line">&#123;</span><br><span class="line">    Server.Transfer(&quot;page2.aspx&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">VB.Net</span><br><span class="line"></span><br><span class="line"><span class="keyword">Protected</span> <span class="keyword">Sub</span> Button1_Click(<span class="keyword">ByVal</span> sender <span class="keyword">As</span> <span class="built_in">Object</span>, <span class="keyword">ByVal</span> e <span class="keyword">As</span> System.EventArgs) <span class="keyword">Handles</span> Button1.Click</span><br><span class="line"></span><br><span class="line">        Server.Transfer(<span class="string">"Page2.aspx"</span>)</span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -543,7 +556,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://zhouhengheng.com/C-study-2.html" title="C# study 2">https://zhouhengheng.com/C-study-2.html</a>
+    <a href="https://zhouhengheng.com/C-study-2.html" title="C# Study 2">https://zhouhengheng.com/C-study-2.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -861,7 +874,7 @@
     <!-- 博客字数统计 -->
     <span class="site-pv">
       <i class="fa fa-pencil"></i>
-      博客全站共： <span class="post-count">23.1k</span> 字
+      博客全站共： <span class="post-count">23.4k</span> 字
     </span>
 </div>
 
@@ -967,7 +980,19 @@
 
 
   
+  
 
+
+
+<script language="javascript">
+  (function() {
+    let background = $('.header').css('background-image');
+    background = background.slice(0, background.lastIndexOf(','));
+    let url = "https://github.com/zhouhengheng0705/zhouhengheng0705.github.io/blob/master/C-study-2/wallhaven-mdwvmy.jpg?raw=true";
+    background += `, url(${url})`;
+    $('.header').css('background-image', background);
+  }());
+</script>
 
 
 

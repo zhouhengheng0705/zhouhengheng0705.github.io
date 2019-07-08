@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[C# study 2]]></title>
+    <title><![CDATA[C# Study 2]]></title>
     <url>%2FC-study-2.html</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[ASP.Net Response.Redirect or Server.Transfer: Open New Tab from Code Behind Thus with the help of JavaScript we can set the target property of form to _blank whenever we want to open the page in a new window. Refer belowI have an ASP.Net Button12345Aspx&lt;asp:Button ID=&quot;Button1&quot; runat=&quot;server&quot; Text=&quot;Button&quot; onclick=&quot;Button1_Click&quot; OnClientClick = &quot;SetTarget();&quot; /&gt; I am calling the SetTarget() JavaScript function OnClientClick event of the ASP.Net Button Control as described below12345678910JavaScript&lt;script type = "text/javascript"&gt; function SetTarget() &#123; document.forms[0].target = "_blank"; &#125;&lt;/script&gt; As you can see above I am setting the target property of the HTML FORM to _blankSecondly I am calling the Button1_Click method OnClick event Control as described below1234567C#protected void Button1_Click(object sender, EventArgs e)&#123; Response.Redirect(&quot;page2.aspx&quot;);&#125; 1234567VB.NetProtected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.Click Response.Redirect("Page2.aspx")End Sub Thus now when you click on the Button, the JavaScript function sets the target property of the form is to _blank Thus when PostBack occurs it first opens the current page in new window and then executes the Response.Redirect method thus helping us achieve our goal.Same way we can use Server.Transfer on the Button Click event123456C#protected void Button1_Click(object sender, EventArgs e)&#123; Server.Transfer(&quot;page2.aspx&quot;);&#125; 123456VB.NetProtected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.Click Server.Transfer("Page2.aspx")End Sub]]></content>
   </entry>
   <entry>
     <title><![CDATA[Oracle Database 12C SQL基礎知識]]></title>
@@ -99,9 +99,9 @@
         <category>hexo博客技术</category>
       </categories>
       <tags>
-        <tag>html</tag>
         <tag>javascript</tag>
         <tag>CSS</tag>
+        <tag>html</tag>
         <tag>Markdown</tag>
       </tags>
   </entry>
