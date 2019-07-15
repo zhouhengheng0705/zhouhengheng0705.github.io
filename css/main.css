@@ -444,7 +444,7 @@ body {
 }
 .header-inner {
   margin: 0 auto;
-  padding: 90px 0 700px;
+  padding: 90px 0 400px;
   width: 700px;
 }
 @media (min-width: 1600px) {
@@ -2202,7 +2202,7 @@ a:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd68a;
+  background: #aa1bd1;
 }
 .links-of-blogroll {
   font-size: 13px;
